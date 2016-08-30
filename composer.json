@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/common",
+    "name": "mephir/omnipay-common",
     "type": "library",
     "description": "Common components for Omnipay payment processing library",
     "keywords": [
@@ -10,6 +10,9 @@
         "payment",
         "purchase"
     ],
+    "replace": {
+        "omnipay/common": "2.5.1"
+    },
     "homepage": "https://github.com/thephpleague/omnipay-common",
     "license": "MIT",
     "authors": [
